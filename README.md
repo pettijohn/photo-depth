@@ -40,7 +40,7 @@ Create the static build:
 bun run build
 ```
 
-Vite writes the completed static files to `dist/`. Serve this directory with a local web server or a static hosting service.
+Vite writes the completed static files to `docs/`. Serve this directory with a local web server or a static hosting service.
 
 ## Inputs
 

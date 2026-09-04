@@ -5,7 +5,7 @@
 - ALWAYS use `bun`. NEVER use `node` nor `npm`.
 - ALWAYS use TypeScript, NEVER use JavaScript directly.
 - Svelte UI with Vite packaging.
-- Publish static build artifacts to `dist/`.
+- Publish static build artifacts to `docs/`.
 - NEVER install any system-wide dependencies.
 - NEVER commit or push git. 
 
