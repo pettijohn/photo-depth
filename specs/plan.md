@@ -13,7 +13,7 @@
 
 ### Input gate
 
-- [x] Approve `docs/requirements.md` and `docs/tech-design.md` as the implementation baseline.
+- [x] Approve `specs/requirements.md` and `specs/tech-design.md` as the implementation baseline.
 - [x] Resolve conflicts between the requirements and the technical design.
 - [x] Confirm that different image resolutions are valid when their aspect ratios match.
 
@@ -339,7 +339,7 @@
 
 - [x] Make `bun run check`, `bun run test`, and `bun run build` pass.
 - [x] Make the Playwright workflow pass for JPEG and PNG downloads.
-- [x] Pass every acceptance criterion in `docs/requirements.md`.
+- [x] Pass every acceptance criterion in `specs/requirements.md`.
 - [x] Confirm that the production application sends no photograph or depth data across the network.
 - [x] Confirm that no JavaScript source file exists in the repository.
 - [x] Record browser and GPU limits that remain after release testing.
