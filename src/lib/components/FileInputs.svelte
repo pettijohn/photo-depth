@@ -31,6 +31,6 @@
   <div class="file-field">
     <label for="depth-input">DA3 depth map</label>
     <input id="depth-input" type="file" accept=".npz,application/octet-stream" {disabled} onchange={(event) => { const file = firstFile(event); if (file) onDepth(file); }} />
-    <small>{depthName ?? 'DA3 mini_npz with a float32 depth array'}</small>
+    <small>{depthName ?? 'DA3 mini_npz with a float32 depth array'}</small><small>TIP: Generate one by installing <a href="https://github.com/bytedance-seed/depth-anything-3">Depth Anything 3</a> locally.</small>
   </div>
 </section>

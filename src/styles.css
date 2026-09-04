@@ -34,7 +34,7 @@ h2 { margin: 0; font-size: 1.12rem; }
 .input-card { display: grid; grid-template-columns: 1.1fr 1fr 1fr; gap: 1rem; align-items: center; border-radius: 18px; padding: 1.1rem; margin-bottom: 1rem; }
 .file-field { min-width: 0; display: grid; gap: 0.4rem; padding: 0.8rem 1rem; border-radius: 12px; background: #182229; }
 .file-field label { font-weight: 700; }
-.file-field small { color: #879896; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.file-field small, .file-field p { color: #879896; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .file-field input { width: 100%; font-size: 0.82rem; }
 .file-field input::file-selector-button { border: 0; border-radius: 7px; padding: 0.45rem 0.65rem; margin-right: 0.7rem; background: #2d3d45; color: #eef8f5; cursor: pointer; }
 
